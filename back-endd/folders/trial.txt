@@ -1,0 +1,6 @@
+JavaScript is a programming language that is commonly used for web development.
+It allows you to create dynamic and interactive web pages.The capital of France
+is Paris. Javascript can be used to create both front end and back end of a
+project.Mostly it used to make your web pages dynamic.it has frameworks such as
+react js,node js.React js is used for frontend,while node js is used for
+backend.

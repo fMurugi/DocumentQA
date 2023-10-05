@@ -2,6 +2,7 @@ import { Router } from "express";
 import { getDocuments,getDocumentById,createDocument,deleteDocument } from "../handler/documents.js";
 import { getQuestionById,getQuestions,createQuestion,deleteQuestion } from "../handler/question.js";
 import { ask } from "../handler/ask.js";
+import{askLangChain} from "../handler/askLangChain.js";
 
 import multer from 'multer';
 const upload = multer({dest: 'uploads/'});
@@ -27,7 +28,7 @@ router.get("/questions/:id", (getQuestionById));
 
   
   router.post("/ask",upload.single('document'), (ask));
-  
+  router.post("/askLangChain",upload.single('document'), (askLangChain));
   
 
 
